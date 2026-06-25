@@ -1,12 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
+import technicianAsset from "@/assets/technician.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Voltra — Professional Electrical Services" },
-      { name: "description", content: "Safe, reliable electrical services for homes and businesses — installations, repairs, panel upgrades, and 24/7 emergency support." },
-      { property: "og:title", content: "Voltra — Professional Electrical Services" },
-      { property: "og:description", content: "Safe, reliable electrical services for homes and businesses." },
+      { title: "Voltra — Appliance Repair Experts" },
+      { name: "description", content: "Fast, reliable repair for washing machines, refrigerators, ovens, stoves, generators and more — same-day service and 24/7 emergency support." },
+      { property: "og:title", content: "Voltra — Appliance Repair Experts" },
+      { property: "og:description", content: "Trusted repair for washing machines, refrigerators, ovens, stoves and generators." },
     ],
   }),
   component: Index,
